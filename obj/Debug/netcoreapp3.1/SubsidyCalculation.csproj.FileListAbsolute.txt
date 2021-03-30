@@ -1,0 +1,13 @@
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\bin\Debug\netcoreapp3.1\SubsidyCalculation.exe
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\bin\Debug\netcoreapp3.1\SubsidyCalculation.deps.json
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\bin\Debug\netcoreapp3.1\SubsidyCalculation.runtimeconfig.json
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\bin\Debug\netcoreapp3.1\SubsidyCalculation.runtimeconfig.dev.json
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\bin\Debug\netcoreapp3.1\SubsidyCalculation.dll
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\bin\Debug\netcoreapp3.1\SubsidyCalculation.pdb
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\obj\Debug\netcoreapp3.1\SubsidyCalculation.csprojAssemblyReference.cache
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\obj\Debug\netcoreapp3.1\SubsidyCalculation.AssemblyInfoInputs.cache
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\obj\Debug\netcoreapp3.1\SubsidyCalculation.AssemblyInfo.cs
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\obj\Debug\netcoreapp3.1\SubsidyCalculation.csproj.CoreCompileInputs.cache
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\obj\Debug\netcoreapp3.1\SubsidyCalculation.dll
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\obj\Debug\netcoreapp3.1\SubsidyCalculation.pdb
+C:\Users\mifta\source\repos\SubsidyCalculation\SubsidyCalculation\obj\Debug\netcoreapp3.1\SubsidyCalculation.genruntimeconfig.cache
