@@ -7,8 +7,8 @@ namespace SubsidyCalculation
 {
     class SubsidyCalculation : ISubsidyCalculation
     {
-        public event EventHandler<string> OnNotify = Notify;
-        public event EventHandler<Tuple<string, Exception>> OnException = Exception;
+        public event EventHandler<string> OnNotify = Handler.Notify;
+        public event EventHandler<Tuple<string, Exception>> OnException = Handler.Exception;
 
         void Check(Volume volume, Tariff tariff)
         {
@@ -57,7 +57,6 @@ namespace SubsidyCalculation
                     ServiceId = volumes.ServiceId,
                     Value = volumes.Value * tariff.Value
                 };
-                Thread.Sleep(1000);
                 OnNotify.Invoke(this, $"Расчет успешно завершен в {DateTime.Now:T}");
                 return charge;
             }
@@ -66,13 +65,6 @@ namespace SubsidyCalculation
                 OnException.Invoke(this, new Tuple<string, Exception>("Ошибка", e));
                 throw;
             }
-        }
-
-        static void Notify(object sender, string text) => Console.WriteLine(text);
-        static void Exception(object sender, Tuple<string, Exception> text)
-        {
-            Console.WriteLine(text.Item1);
-            throw text.Item2;
         }
     }
 }
