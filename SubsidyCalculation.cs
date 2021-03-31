@@ -7,8 +7,8 @@ namespace SubsidyCalculation
 {
     class SubsidyCalculation : ISubsidyCalculation
     {
-        public event EventHandler<string> OnNotify = Handler.Notify;
-        public event EventHandler<Tuple<string, Exception>> OnException = Handler.Exception;
+        public event EventHandler<string> OnNotify;
+        public event EventHandler<Tuple<string, Exception>> OnException;
 
         void Check(Volume volume, Tariff tariff)
         {

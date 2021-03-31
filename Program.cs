@@ -24,6 +24,8 @@ namespace SubsidyCalculation
             };
 
             SubsidyCalculation sub = new SubsidyCalculation();
+            sub.OnException += Handler.Exception;
+            sub.OnNotify += Handler.Notify;
             Charge charge = sub.CalculateSubsidy(volume, tariff);
 
             Console.WriteLine(charge.Value);
